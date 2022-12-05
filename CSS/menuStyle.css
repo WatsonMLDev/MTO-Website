@@ -1,18 +1,8 @@
-.navigation {
+.header {
     display: flex;
-    padding-top: 10px;
-    background: firebrick;
-    width: 100%;
-    position: sticky;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     align-content: center;
-}
-
-.logo {
-    width: 50%;
-    cursor: pointer;
-    text-align: left;
-    box-sizing: border-box;
+    padding-top: 10px;
+    background: #dd132c;
 }
