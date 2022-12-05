@@ -1,8 +1,15 @@
-.header {
+header .header {
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
     padding-top: 10px;
     background: #dd132c;
+}
+
+header .header .logo {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1 1;
+    width: 25%;
 }
