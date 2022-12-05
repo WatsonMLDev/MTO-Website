@@ -1,0 +1,94 @@
+header .header-container{
+    transition: all 0.4s;
+}
+
+header .header-container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    background: #dd132c;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+}
+
+header .header-container2 .header-left{
+    display: flex;
+    justify-content: flex-start;
+    flex: 1 1;
+    width: 25%;
+}
+
+header .header-container2 .header-left .hamburger-menu{
+    width: 3.125rem;
+    padding: 0.875rem;
+}
+
+header .header-container2 .header-left .hamburger-logo{
+    width: 3.125rem;
+}
+
+header .header-container2 .logo-container {
+    text-align: center;
+    width: 50%;
+}
+
+header .header-container2 .logo-container .header-logo {
+    width: 100%;
+    max-width: 10rem;
+    vertical-align: bottom;
+}
+
+header .header-container2 .header-right {
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+    flex: 1 1;
+}
+
+header .new_re {
+    background: #dd132c;
+    display: flex;
+    padding: 12px 20px 16px;
+    width: 100%;
+    justify-content: center;
+}
+.new_re a {
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 0 16px;
+    text-align: center;
+    color: #343434;
+    width: 49%;
+    margin: 0 2% 0 0;
+    font-weight: bold;
+    max-width: 340px;
+}
+
+.btn-white {
+    color: #999;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 48px;
+    height: 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0 40px;
+}
+
+.btn-white-border {
+    color: #999;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 48px;
+    height: 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0 40px;
+}
+
+

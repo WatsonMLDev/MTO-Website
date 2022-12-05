@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Waweetz</title>
+      <link rel="stylesheet" href="../CSS/indexStyle.css">
+      <link rel="stylesheet" href="../CSS/menuStyle.css">
+  </head>
+  <body>
+    <div id="app">
+        <div class="header">
+            <nav id="nav" class = "navigation">
+                <div>
+                    <img src="../images/logo.png" alt="Lawn Mower Guy Logo" class="logo">
+                </div>
+                <div id="login" class = >
+                    <a href="login.html">Login</a>
+                </div>
+                <div>
+                    <a href="order.html">Order</a>
+                    <a href="about.html">About Us</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <script>
+        let navbar = document.querySelector('#nav')
+
+        window.onscroll = function(){
+            if (window.scrollY > 0){
+                navbar.classList.add('scrolled')
+            } else {
+                navbar.classList.remove('scrolled')
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  </body>
+</html>

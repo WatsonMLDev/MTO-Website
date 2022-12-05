@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="main-header" role="banner">
+    <div class="header-container">
+        <div class="header-container2">
+            <div class="header-left">
+                <div ng-click="vm.onOpenNavigation()" class="hamburger-menu">
+                    <!-- ngInclude: --><ng-include src="'assets/images/icon-menu.svg'" alt="Sheetz Hamburger Icon" class="hamburger-icon ng-scope" style=""><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="ng-scope"><defs><style>.menu_icon_1{fill:#343434}</style></defs><title>icon_menu</title><g id="Group_4" data-name="Group 4"><g id="Group_1" data-name="Group 1"><path id="Path_1" data-name="Path 1" class="menu_icon_1" d="M88.61 56.21H11.39a6.23 6.23 0 0 1 0-12.45h77.22a6.23 6.23 0 1 1 0 12.45z"></path></g><g id="Group_2" data-name="Group 2"><path id="Path_2" data-name="Path 2" class="menu_icon_1" d="M88.61 26.49H11.39a6.22 6.22 0 0 1-6.23-6.22A6.22 6.22 0 0 1 11.39 14h77.22a6.23 6.23 0 0 1 0 12.45z"></path></g><g id="Group_3" data-name="Group 3"><path id="Path_3" data-name="Path 3" class="menu_icon_1" d="M88.61 86H11.39a6.22 6.22 0 0 1-6.23-6.23 6.22 6.22 0 0 1 6.23-6.22h77.22a6.23 6.23 0 0 1 0 12.45z"></path></g></g></svg></ng-include>
+                </div>
+            </div>
+
+            <div class="logo-container">
+                <a ui-sref="app.home" mainsite="" title="Sheetz Home" href="/"><img src="assets/images/logo-sheetz.svg" alt="Sheetz Logo" class="header-logo"></a>
+            </div>
+
+            <div class="header-right"><a href="https://orders.sheetz.com/auth/login" title="Log in to Sheetz Online Ordering!" target="_self">Login</a></div>
+            <div class="new_re">
+                <a href="https://orders.sheetz.com/order" class="btn-white" title="New Order">New Order</a>
+                <a href="https://orders.sheetz.com/order/favorites" class="btn-white-border" title="Reorder">Reorder</a>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+</body>
+</html>
